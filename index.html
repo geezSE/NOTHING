@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alif Farhandriansyah — Professional Portfolio</title>
+    <style>
+        /* --- PREMIUM DARK MODE RESUME THEME --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            color: #e2e8f0;
+            background-color: #0f172a; /* Deep elegant navy/slate black */
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* Container Layout */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header / Hero Section */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #1e293b;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            border: 1px solid #334155;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #f59e0b; /* Amber/Gold neon accent */
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Section Layout */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2.section-title {
+            font-size: 22px;
+            color: #ffffff;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 8px;
+        }
+
+        h2.section-title::after {
+            content: '';
+            flex-grow: 1;
+            height: 1px;
+            background: transparent;
+        }
+
+        /* Experience Timeline Card */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .experience-card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            border: 1px solid #334155;
+            transition: transform 0.3s, border-color 0.3s;
+            position: relative;
+        }
+
+        .experience-card:hover {
+            transform: translateY(-3px);
+            border-color: #f59e0b;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #f59e0b;
+        }
+
+        .company-name {
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .job-meta {
+            font-size: 14px;
+            color: #94a3b8;
+            text-align: right;
+        }
+
+        @media (max-width: 600px) {
+            .job-meta {
+                text-align: left;
+                width: 100%;
+            }
+        }
+
+        /* Responsibilities Checklist */
+        .responsibilities {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .responsibilities li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 8px;
+            color: #cbd5e1;
+            font-size: 15px;
+        }
+
+        .responsibilities li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #f59e0b;
+            font-weight: bold;
+        }
+
+        /* Skill Badges */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-badge {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            border: 1px solid #334155;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .skill-badge:hover {
+            background: #f59e0b;
+            color: #0f172a;
+            border-color: #f59e0b;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            color: #64748b;
+            font-size: 14px;
+            border-top: 1px solid #1e293b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Profile Header -->
+        <header>
+            <h1>Alif Farhandriansyah</h1>
+            <p>Experienced Sales & Operations Professional</p>
+        </header>
+
+        <!-- Experience Section -->
+        <section>
+            <h2 class="section-title">💼 Professional Experience</h2>
+            <div class="timeline">
+
+                <!-- Job 1 -->
+                <div class="experience-card">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Product Consultant</div>
+                            <div class="company-name">PT. MITRA HUB INDONESIA (MHI) · Contract</div>
+                        </div>
+                        <div class="job-meta">
+                            <div>May 2025 - Present</div>
+                            <div>Kota Cilegon, Banten · On-site</div>
+                        </div>
+                    </div>
+                    <ul class="responsibilities">
+                        <li>Provide direct product education to customers regarding features, benefits, and usage of Samsung devices (smartphones, tablets, wearables).</li>
+                        <li>Conduct interactive product demonstrations to boost customer experience and purchasing interest within the retail area.</li>
+                        <li>Achieve individual sales targets using persuasive customer service and strategic promotional approaches.</li>
+                        <li>Collect customer feedback and assess market trends to heavily support marketing development.</li>
+                        <li>Manage high-value store operations with a monthly turnover exceeding 1 Billion IDR.</li>
+                        <li>Monitor corporate financial performance by consistently documenting hundreds of critical transactions.</li>
+                        <li>Optimize inventory processing by strictly managing logistics arrivals and executing the FIFO system.</li>
+                    </ul>
+                    <div class="skills-container">
+                        <span class="skill-badge">Sales Target Mastery</span>
+                        <span class="skill-badge">Product Knowledge</span>
+                        <span class="skill-badge">FIFO System</span>
+                        <span class="skill-badge">Retail Management</span>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="experience-card">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Area Sales Specialist</div>
+                            <div class="company-name">Kredivo Group · Full-time</div>
+                        </div>
+                        <div class="job-meta">
+                            <div>May 2024 - May 2025</div>
+                            <div>Cilegon, Banten · On-site</div>
+                        </div>
+                    </div>
+                    <ul class="responsibilities">
+                        <li>Acquired users and successfully offered fintech payment solutions utilizing Kredivo ecosystems.</li>
+                        <li>Consistently met and exceeded determined regional sales acquisition metrics.</li>
+                        <li>Ensured strong point-of-sale product availability and visibility across assigned outlets.</li>
+                        <li>Guided and assisted user onboarding, application verification, and registration seamlessly.</li>
+                    </ul>
+                    <div class="skills-container">
+                        <span class="skill-badge">Direct Sales</span>
+                        <span class="skill-badge">Fintech Acquisition</span>
+                        <span class="skill-badge">Customer Service</span>
+                        <span class="skill-badge">Account Management</span>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="experience-card">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Smartfren Gadget Specialist</div>
+                            <div class="company-name">PT Smartfren Telecom Tbk · Full-time</div>
+                        </div>
+                        <div class="job-meta">
+                            <div>Jan 2024 - May 2024</div>
+                            <div>Kota Cilegon, Banten · On-site</div>
+                        </div>
+                    </div>
+                    <ul class="responsibilities">
+                        <li>Drove telecommunication and data service transactions through targeted field sales execution.</li>
+                        <li>Maintained strict verification of supply availability levels across partner outlets.</li>
+                        <li>Educated potential buyers on cellular data perks and strategic hardware connectivity plans.</li>
+                    </ul>
+                    <div class="skills-container">
+                        <span class="skill-badge">Sales Management</span>
+                        <span class="skill-badge">Mobile Telephony</span>

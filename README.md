@@ -45,4 +45,4 @@ Seorang profesional yang berdedikasi tinggi dalam bidang **Sales, Product Consul
 ## 📬 Mari Terhubung!
 
 * **LinkedIn:** [Alif Farhandriansyah](https://linkedin.com/in/aliffarhandr/)
-* **Email:** [Alif's Email Placeholder](mailto:alif.farhandr@example.com)
+* **Email:** [Alif's Email](mailto:afarhandriansyah@gmail.com)
